@@ -5,6 +5,8 @@ A [webtask.io](https://webtask.io/) compatible module to get your Nike+ activiti
 
 **Note: by default Nike+ tokens only last for 1 hour. This means any webtask you create will only work for that long. I'm looking into ways to refresh the token in the background and if that will work with [webtask.io](https://webtask.io).**
 
+[![Build Status](https://travis-ci.org/lukekarrys/nike-plus-webtask.png?branch=master)](https://travis-ci.org/lukekarrys/nike-plus-webtask)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 ## Nike+ Tokens
 
