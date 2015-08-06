@@ -38,6 +38,7 @@
     "create": "wt create nike-plus.js",
     "lint": "standard",
     "logs": "wt logs",
+    "init": "wt init",
     "test": "babel-tape-runner test.js | tap-spec",
     "validate": "npm ls"
   },

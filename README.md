@@ -18,7 +18,7 @@ This is not great, and I'm working on finding the best way to do this with the N
 ## Usage
 
 ```sh
-npm run login -- your@email.com
+npm run init -- YOUR@EMAIL.COM
 npm run create -- --secret TOKEN=NIKE_ACCESS_TOKEN
 # Your container name will be shown after you create the webtask
 curl -s https://webtask.it.auth0.com/api/run/{CONTAINER_NAME}/nike-plus?webtask_no_cache=1
