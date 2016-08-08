@@ -3,7 +3,7 @@ import test from 'tape'
 // Override default require to allow for @x.y.z syntax
 // Also, nike needs to use 'require' here instead of ES6
 // import because of babel (I think)
-require('./lib/require-version')
+require('webtask-require-version')
 const nike = require('./nike-plus')
 
 const {TOKEN} = process.env
