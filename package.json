@@ -7,7 +7,7 @@
     "url": "https://github.com/lukekarrys/nike-plus-webtask/issues"
   },
   "dependencies": {
-    "lodash": "3.9.3",
+    "lodash": "4.16.1",
     "qs": "3.1.0",
     "request": "2.56.0"
   },
