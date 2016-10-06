@@ -21,6 +21,13 @@
     "webtask-require-version": "^1.0.1",
     "wt-cli": "^3.3.0"
   },
+  "greenkeeper": {
+    "ignore": [
+      "lodash",
+      "qs",
+      "request"
+    ]
+  },
   "homepage": "https://github.com/lukekarrys/nike-plus-webtask#readme",
   "keywords": [
     "nike",
