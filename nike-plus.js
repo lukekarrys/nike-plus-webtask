@@ -20,7 +20,9 @@ module.exports = (ctx, cb) => {
     if (!error && response.statusCode === 200) {
       cb(null, jsonBody)
     } else {
-      cb(new Error(`${response.statusCode}: ${jsonBody.fault.faultstring}`))
+      const error = (jsonBody.errors || [])[0]
+      const message = error ? error.message : 'An unknown error occurred'
+      cb(new Error(`${response.statusCode}: ${message}`))
     }
   })
 }
