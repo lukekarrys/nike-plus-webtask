@@ -1,6 +1,8 @@
 nike-plus-webtask
 ==================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lukekarrys/nike-plus-webtask.svg)](https://greenkeeper.io/)
+
 A [webtask.io](https://webtask.io/) compatible module to get your Nike+ activities.
 
 **Note: by default Nike+ tokens only last for 1 hour. This means any webtask you create will only work for that long. I'm looking into ways to refresh the token in the background and if that will work with [webtask.io](https://webtask.io).**
