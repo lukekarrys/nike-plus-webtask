@@ -10,9 +10,6 @@ A [webtask.io](https://webtask.io/) compatible module to get your Nike+ activiti
 **Note: by default Nike+ tokens only last for 1 hour. This means any webtask you create will only work for that long. I'm looking into ways to refresh the token in the background and if that will work with [webtask.io](https://webtask.io).**
 
 
-**Note: by default Nike+ tokens only last for 1 hour. This means any webtask you create will only work for that long. I'm looking into ways to refresh the token in the background and if that will work with [webtask.io](https://webtask.io).**
-
-
 ## Nike+ Tokens
 
 For now, the way to get one for testing is to go to their [API Test Console](https://developer.nike.com/documentation/api-docs/activity-services/list-activities.html), run any API request and then get it by inspecting the request in your browser's devtools.
