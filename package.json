@@ -7,19 +7,16 @@
     "url": "https://github.com/lukekarrys/nike-plus-webtask/issues"
   },
   "dependencies": {
-    "lodash": "3.9.3",
-    "qs": "3.1.0",
-    "request": "2.56.0"
+    "lodash": "^4.17.4",
+    "qs": "^6.4.0",
+    "request": "^2.81.0"
   },
   "devDependencies": {
-    "babel-preset-es2015": "^6.13.2",
-    "babel-tape-runner": "^2.0.1",
-    "git-validate": "^2.1.4",
-    "standard": "^10.0.0",
+    "git-validate": "^2.2.2",
+    "standard": "^10.0.2",
     "tap-spec": "^4.1.1",
-    "tape": "^4.6.0",
-    "webtask-require-version": "^1.0.1",
-    "wt-cli": "^4.0.0"
+    "tape": "^4.6.3",
+    "wt-cli": "^6.0.0"
   },
   "greenkeeper": {
     "ignore": [
@@ -47,11 +44,13 @@
   },
   "scripts": {
     "container": "wt profile ls",
-    "create": "wt create nike-plus.js",
+    "create": "wt create --secrets-file .env nike-plus.js",
     "init": "wt init",
     "lint": "standard",
+    "local": "wt serve --secrets-file .env nike-plus.js",
     "logs": "wt logs",
-    "test": "babel-tape-runner test.js | tap-spec",
-    "validate": "npm ls"
+    "test": "tape test.js | tap-spec",
+    "validate": "npm ls",
+    "wt": "wt"
   }
 }

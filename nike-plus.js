@@ -1,8 +1,8 @@
 'use latest'
 
-const request = require('request@2.56.0')
-const qs = require('qs@3.1.0')
-const _ = require('lodash@3.9.3')
+const request = require('request')
+const qs = require('qs')
+const _ = require('lodash')
 
 const URI_BASE = 'https://api.nike.com/v1'
 const PATHS = {
