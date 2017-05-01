@@ -1,9 +1,6 @@
-import test from 'tape'
+require('dotenv').config()
 
-// Override default require to allow for @x.y.z syntax
-// Also, nike needs to use 'require' here instead of ES6
-// import because of babel (I think)
-require('webtask-require-version')
+const test = require('tape')
 const nike = require('./nike-plus')
 
 const {TOKEN} = process.env
